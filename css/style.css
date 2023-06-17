@@ -540,17 +540,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #34C0DF;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #34C0DF;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background:#34C0DF;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -1064,7 +1064,7 @@ h6 {
 }
 
 #contact .section-header {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 #contact .contact-about h3 {
