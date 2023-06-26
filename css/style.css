@@ -126,18 +126,18 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 80px;
+  height: 60px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  padding: 20px 0;
+  padding: 5px 0;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 60px;
+  height: 70px;
   padding: 10px 0;
 }
 
@@ -159,8 +159,14 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 1px 0;
-  max-height: 50px;
+  margin:-6.5px;
+  max-height:65px;
+}
+
+#header .logo2 img {
+  padding: 0;
+  margin: 0;
+  max-height:50px;
 }
 
 .main-pages {
@@ -1195,7 +1201,7 @@ h6 {
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #34C0DF;
   padding: 60px 0 30px 0;
 }
 
@@ -1239,7 +1245,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
+  background: #34C0DF;
   color: #fff;
 }
 
