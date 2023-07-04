@@ -17,14 +17,14 @@ body {
 }
 
 a {
-  color: #34C0DF  ;
+  color: #E8B4B8;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #6E2F93;
+  color: #E8B4B8;
   outline: none;
   text-decoration: none;
 }
@@ -51,7 +51,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #34C0DF;
+  background: #E8B4B8;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -89,7 +89,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #34C0DF;
+  border-top: 6px solid #E8B4B8;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -153,7 +153,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #6E2F93;
+  color:#E8B4B8 ;
   text-decoration: none;
 }
 
@@ -180,18 +180,18 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("https://www.argentina.gob.ar/sites/default/files/2021/07/degrade.png") center bottom no-repeat;
+  background:#A49393 ;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
 
 #intro .intro-img {
-  width: 50%;
+  width: 60%;
   float: right;
 }
 
 #intro .intro-info {
-  width: 50%;
+  width: 40%;
   float: left;
 }
 
@@ -203,7 +203,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #34C0DF;
+  color: #E8B4B8;
   text-decoration: underline;
 }
 
@@ -222,8 +222,8 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #34C0DF;
-  border: 2px solid #34C0DF;
+  background: #E8B4B8;
+  border: 2px solid #E8B4B8;
   color: #fff;
 }
 
@@ -235,7 +235,7 @@ h6 {
 
 #intro .intro-info .btn-services {
   border: 2px solid #fff;
-  color: #f1a51fff;
+  color: #E8B4B8;
 }
 
 #intro .intro-info .btn-services:hover {
@@ -271,10 +271,10 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #6E2F93;
+  color:#A49393;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 17px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
@@ -282,7 +282,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #34C0DF;
+  color:#E8B4B8;
   text-decoration: none;
 }
 
@@ -486,7 +486,7 @@ h6 {
   background: #ecf5ff;
 }
 
-/* About Us Section
+/* Sección Nosotros
 --------------------------------*/
 
 #about {
@@ -503,7 +503,7 @@ h6 {
 }
 
 #about .about-container .title {
-  color: #333;
+  color:  #E8B4B8;
   font-weight: 700;
   font-size: 32px;
 }
@@ -546,17 +546,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #34C0DF;
+  border: 2px solid #A49393;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #34C0DF;
+  color: #A49393;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background:#34C0DF;
+  background:#A49393;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -571,7 +571,7 @@ h6 {
 }
 
 #about .about-container .icon-box .title a {
-  color: #283d50;
+  color:#A49393;
 }
 
 #about .about-container .icon-box .description {
@@ -593,7 +593,7 @@ h6 {
 --------------------------------*/
 
 #services {
-  background-color: #E9E7E8;
+  background-color: #EED6D3;
   padding: 60px 0 40px 0;
   box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
@@ -638,7 +638,7 @@ h6 {
 }
 
 #services .box:hover .title a {
-  color: #34C0DF;
+  color: #E8B4B8;
 }
 
 #services .description {
@@ -745,7 +745,7 @@ h6 {
   padding: 6px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #007bff;
+  color: #E8B4B8;
   border-radius: 50px;
   text-transform: uppercase;
   background: #ecf5ff;
@@ -755,7 +755,7 @@ h6 {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background:#E8B4B8;
   color: #fff;
 }
 
@@ -926,7 +926,7 @@ h6 {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #007bff;
+  background-color:#E8B4B8;
 }
 
 /* Team Section
@@ -1060,7 +1060,7 @@ h6 {
   transition: all 0.4s ease-in-out;
 }
 
-/* Contact Section
+/* SECCIÓN CONTACTO
 --------------------------------*/
 
 #contact {
@@ -1082,7 +1082,7 @@ h6 {
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: #007bff;
+  color: #E8B4B8;
 }
 
 #contact .contact-about p {
@@ -1100,7 +1100,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #fff;
-  color: #007bff;
+  color: #E8B4B8;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1109,11 +1109,11 @@ h6 {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  border: 1px solid #007bff;
+  border: 1px solid #E8B4B8;
 }
 
 #contact .social-links a:hover {
-  background: #007bff;
+  background: #E8B4B8;
   color: #fff;
 }
 
@@ -1123,7 +1123,7 @@ h6 {
 
 #contact .info i {
   font-size: 32px;
-  color: #34C0DF;
+  color: #E8B4B8;
   float: left;
   line-height: 1;
 }
@@ -1135,8 +1135,8 @@ h6 {
 }
 
 #contact .form #sendmessage {
-  color: #34C0DF;
-  border: 1px solid #34C0DF;
+  color: #E8B4B8;
+  border: 1px solid #E8B4B8;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1176,7 +1176,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #34C0DF;
+  background: #E8B4B8;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1185,7 +1185,7 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #50535c;
+  background:  #A49393;
   cursor: pointer;
 }
 
@@ -1194,14 +1194,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #34C0DF;
+  background: #67595E;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #34C0DF;
+  background: #A49393;
   padding: 60px 0 30px 0;
 }
 
@@ -1232,7 +1232,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background:#E8B4B8;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1245,7 +1245,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #34C0DF;
+  background:#E8B4B8;
   color: #fff;
 }
 
@@ -1281,7 +1281,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
+  color: #E8B4B8;
 }
 
 #footer .footer-top .footer-contact {
@@ -1303,7 +1303,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #34C0DF;
+  background: #E8B4B8;
   border: 0;
   width: 35%;
   padding: 6px 0;
