@@ -174,13 +174,14 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Intro Section
+# SECCION HOME
 --------------------------------------------------------------*/
 
 #intro {
   width: 100%;
   position: relative;
   background:#A49393 ;
+  /* COMO AGREGAR OTRA IMAGEN*/ background: url("https://www.argentina.gob.ar/sites/default/files/2021/07/degrade.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -1335,6 +1336,37 @@ h6 {
 #footer .credits a:hover {
   color: #f1f7ff;
 }
+/* Esto lo agrego para dar formato a los logos*/
+#footer .logo h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#footer .logo h1 a,
+
+#footer .logo h1 a:hover {
+  color:#E8B4B8 ;
+  text-decoration: none;
+}
+
+#footer .logo img {
+  padding: 0;
+  margin:-6.5px;
+  max-height:50px;
+}
+
+#footer .logo2 img {
+  padding: 0;
+  margin: 0;
+  max-height:50px;
+}
+
+
 
 /*--------------------------------------------------------------
 # Responsive Media Queries
