@@ -175,11 +175,10 @@ h6 {
   position: relative;
   background-size: cover;
   padding: 650px 0 120px 0;
-  background-image: red; 
+  background-image: url("/img/CASA\ PILE\ -\ DIA.jpg "); 
   background-attachment: fixed;
   background-repeat: no-repeat, repeat;
   background-size:cover;
-  
 }
 
 #intro .intro-img {
