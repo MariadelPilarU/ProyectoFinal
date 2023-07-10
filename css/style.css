@@ -914,6 +914,7 @@ h6 {
   padding: 8px 30px;
   color: #fff;
   transition: 0.3s;
+  
 }
 
 #contact .form button[type="submit"]:hover {
@@ -956,7 +957,7 @@ h6 {
 #footer .footer-top .footer-info p {
   font-size: 15px;
   line-height: 24px;
-  margin-bottom: 0;
+  margin-bottom: 0px;
   font-family: 'Encode Sans', sans-serif;
   color: #ecf5ff;
 }
@@ -1036,16 +1037,15 @@ h6 {
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
   background: #E8B4B8;
-  border: 0;
-  width: 35%;
-  padding: 6px 0;
+  border: 0;           
+  padding: 6px 10px;
   text-align: center;
   color: #fff;
   transition: 0.3s;
   cursor: pointer;
 }
 
-#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+#footer .fo   ter-top .footer-newsletter input[type="submit"]:hover {
   background:#EED6D3 ;
 }
 
@@ -1068,6 +1068,7 @@ h6 {
   color: #f1f7ff;
 }
 /* Esto lo agrego para dar formato a los logos*/
+
 #footer .logo h1 {
   font-size: 36px;
   margin: 0;
@@ -1085,29 +1086,37 @@ h6 {
   text-decoration: none;
 }
 
+
 #footer .logo img {
-  padding: 0;
-  margin:-6.5px;
-  max-height:50px;
+  padding: 0px;
+  margin: 0px;
+  max-height:60px;
 }
 
 #footer .logo2 img {
-  padding: 0;
-  margin: 0;
-  max-height:50px;
+  padding: -5px;
+  margin: 0px;
+  max-height:60px;
+  margin-bottom: 5px;
 }
 
+#footer .logo3 img {
+  padding: 0;
+  margin: 0px;
+  max-height:50px;
 
+}
 
+#footer .logo4 img {
+  padding: 10px;
+  margin: 0px;
+  max-height:60px;
+}
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-/*@media (min-width: 992px) {
-  #testimonials .testimonial-item p {
-    width: 80%;
-  }
-}*/
+
 
 @media (max-width: 991px) {
   #header {
